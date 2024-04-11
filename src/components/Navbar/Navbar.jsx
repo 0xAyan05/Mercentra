@@ -9,13 +9,13 @@ const Navbar = () => {
     window.addEventListener("scroll", () => {
       window.scrollY > 600 ? setSticky(true) : setSticky(false);
     });
-  },[]);
+  }, []);
 
   return (
     <nav className={`container ${sticky ? "dark-nav" : ""}`}>
       <img src={logo} alt="Logo" className="logo" />
       <ul>
-        <li>Home</li>
+        <li><Link to='hero'>Home</Link></li>
         <li>Program</li>
         <li>About Us</li>
         <li>Campus</li>
