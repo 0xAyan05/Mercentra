@@ -1,4 +1,4 @@
-nav{
+nav {
     width: 100%;
     /*background: #13b1d1;*/
     color: #fff;
@@ -12,18 +12,31 @@ nav{
     z-index: 10;
 }
 
-.logo{
+.logo {
     width: 50px;
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     list-style-type: none;
     margin: 5px 20px;
     font-size: 16px;
 }
 
-.dark-nav{
+.dark-nav {
     background: #212EA0;
     transition: 0.5s;
+
+}
+
+@media (max-width:1000px) {
+    .logo {
+        width: 140px;
+    }
+
+    nav ul li {
+        margin: 10px 15px;
+    }
+
+
 }
