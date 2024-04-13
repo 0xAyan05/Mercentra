@@ -8,30 +8,26 @@ import user3 from "../../assets/u3.jpg";
 import user4 from "../../assets/u4.jpg";
 
 const Testimonials = () => {
+  const slider = useRef();
+  let tx = 0;
 
-    const slider = useRef();
-    let tx = 0;
-
-    const slideForward = ()=>{
-        if(tx > -50){
-            tx -= 25;
-        }
-        slider.current.style.transform = `translateX(${tx}%)`;
+  const slideForward = () => {
+    if (tx > -50) {
+      tx -= 25;
     }
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
 
-    
-    const slideBackward = ()=>{
-        if(tx < 0){
-            tx += 25;
-        }
-        slider.current.style.transform = `translateX(${tx}%)`;
+  const slideBackward = () => {
+    if (tx < 0) {
+      tx += 25;
     }
-
-
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
 
   return (
     <div className="testimonials">
-      <img src={next_right} className="next-btn" onClick={slideForward}/>
+      <img src={next_right} className="next-btn" onClick={slideForward} />
       <img src={next_left} className="back-btn" onClick={slideBackward} />
       <div className="slider">
         <ul ref={slider}>
@@ -72,7 +68,7 @@ const Testimonials = () => {
               <div className="user-info">
                 <img src={user3} />
                 <div>
-                  <h3>Manuel</h3>
+                  <h3>Manuel Caballero</h3>
                   <span>Masbate, Philippines</span>
                 </div>
               </div>
