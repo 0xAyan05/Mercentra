@@ -20,17 +20,11 @@ const About = () => {
         </p>
 
         <p>
-          We believe in creating experiences that transcend boundaries and
-          amplify the spirit of exploration and connection.
+        We’re all about breaking barriers and turning up the fun, creating a space where you can explore and connect.
         </p>
 
         <p>
-          Our goal is to create a platform that embodies the spirit of the
-          rave culture, blending the excitement of cryptocurrency with the
-          vibrant energy of music festivals. Whether you’re a seasoned crypto
-          trader, a music lover, or simply someone looking to be part of an
-          innovative and inclusive community, Cat in Rave welcomes you with open
-          arms.
+        Join the rave culture with Cat in Rave, where the excitement ties up with the electric energy of music festivals. Whether you're a crypto whiz, a music junkie, or just here for the vibrant community, our dancing cat welcomes you to the party.
         </p>
       </div>
     </div>
