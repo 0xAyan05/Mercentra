@@ -11,7 +11,7 @@ const About = () => {
         <img src={play} className="play-icon" />
       </div>
       <div className="about-right">
-        <h3>ABOUT CAN IN RAVE</h3>
+        <h3>ABOUT CAT IN RAVE</h3>
         <h2>"Mixing beats and crypto vibes—join the rave revolution!"</h2>
         <p>
           {" "}
@@ -25,7 +25,7 @@ const About = () => {
         </p>
 
         <p>
-          Our mission is to create a platform that embodies the spirit of the
+          Our goal is to create a platform that embodies the spirit of the
           rave culture, blending the excitement of cryptocurrency with the
           vibrant energy of music festivals. Whether you’re a seasoned crypto
           trader, a music lover, or simply someone looking to be part of an
