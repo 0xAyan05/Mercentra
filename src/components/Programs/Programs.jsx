@@ -1,8 +1,8 @@
 import React from "react";
 import "./Programs.css";
-import pic1 from '../../assets/drugs.jpg'
-import pic2 from '../../assets/music.jpg'
-import pic3 from '../../assets/rave.jpg'
+import pic1 from '../../assets/pilll.png'
+import pic2 from '../../assets/music.png'
+import pic3 from '../../assets/rave.png'
 import icon1 from '../../assets/pill.png'
 import icon2 from '../../assets/musics.png'
 import icon3 from '../../assets/grp.png'

@@ -14,7 +14,7 @@ nav {
 
 .logo {
     width: 70px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-radius: 50%;
 }
 
@@ -41,7 +41,7 @@ nav ul li {
     }
 
     nav ul li {
-        margin: 10px 15px;
+        margin: 5px 15px;
     }
 
 

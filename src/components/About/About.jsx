@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import about from "../../assets/dancecat.gif";
-import play from "../../assets/iconblack.png";
+import play from "../../assets/playicon.png";
 
 
 const About = () => {
