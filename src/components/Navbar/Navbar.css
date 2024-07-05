@@ -43,6 +43,9 @@ nav ul li {
     nav ul li {
         margin: 5px 15px;
     }
+    .menu-icon{
+        color: white;
+    }
 
 
 }
@@ -81,7 +84,8 @@ nav ul li {
         right: 40px;
         width: 45px;
         cursor: pointer;
-        
+        color: white;
+}
     }
 
     .hide-mobile-menu{
@@ -89,4 +93,3 @@ nav ul li {
     }
 
 
-}

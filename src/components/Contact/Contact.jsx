@@ -62,7 +62,7 @@ const Contact = () => {
           <li>
             {" "}
             <img src={pump} />
-            Partnered With PUMP
+            Partnered With PUMP.FUN
           </li>
         </ul>
       </div>

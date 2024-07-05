@@ -3,7 +3,6 @@ import "./About.css";
 import about from "../../assets/dancecat.gif";
 import play from "../../assets/playicon.png";
 
-
 const About = () => {
   return (
     <div className="about">
@@ -12,27 +11,26 @@ const About = () => {
         <img src={play} className="play-icon" />
       </div>
       <div className="about-right">
-        <h3>ABOUT $CRAVE</h3>
-        <h2>Nurturing Tomorrow's Leaders Today</h2>
+        <h3>ABOUT CAN IN RAVE</h3>
+        <h2>"Mixing beats and crypto vibes—join the rave revolution!"</h2>
         <p>
           {" "}
-          Embark on a transfromative educational journey with our college's
-          comprehensive education programs. Our cutting-edge curriculum is
-          designed to empower studentes with the knowledge, skills, and
-          experiences needed to excel in the dynamic field of education.
+          Cat in Rave is more than just a project; it’s a vibrant community at
+          the intersection of drugs, music, and camaraderie.
         </p>
 
         <p>
-          With a focus on innovation, hands-on learning, and personalized
-          mentorship, our programs prepare aspiring educators to make a
-          meaningful impack in classrooms, schools and communities.
+          We believe in creating experiences that transcend boundaries and
+          amplify the spirit of exploration and connection.
         </p>
 
         <p>
-          Whether you aspire to become a nurse,business analyst, hospitality
-          manager, teacher, counselor or educational leader, our diverse range
-          of programs offers the perfect pathway to achieve your goals and
-          unlock your full potential in shaping the future of education.
+          Our mission is to create a platform that embodies the spirit of the
+          rave culture, blending the excitement of cryptocurrency with the
+          vibrant energy of music festivals. Whether you’re a seasoned crypto
+          trader, a music lover, or simply someone looking to be part of an
+          innovative and inclusive community, Cat in Rave welcomes you with open
+          arms.
         </p>
       </div>
     </div>

@@ -39,6 +39,7 @@
 .contact-col ul li img{
     width: 50px;
     margin-right: 10px;
+    border-radius: 50%;
 }
 
 .contact form input, .contact form textarea{
