@@ -52,7 +52,7 @@ const Contact = () => {
             <a href="https://t.me/+DVymnp7rTdxhYzBl?fbclid=IwZXh0bgNhZW0CMTEAAR2WTcFUDTM5tCZ7sKn0ESGkfvS6TGfIJL3_AJCX45hkLrOZvpUekvhUbIM_aem_MF9UKQ1oSwxMz9oZYoG2yw" target="_blank"> <img src={tg} alt="" /> </a>Cat in Rave Community
           </li>
           <li>
-          <a href="https://x.com/ravecatdotsol?t=Zwj6yzpfkoGmfSRDSnxeUg&s=09&fbclid=IwZXh0bgNhZW0CMTEAAR1alV5cBSSa-_5cBxE_ZmGAMAwF4M3vmguQQXyKpo47FTJrGtRXfQU1p3U_aem_WDITNB4LSNAOmhSOUQ3DmA"> <img src={xlogo} alt="" /></a>Follow us on X
+          <a href="https://x.com/ravecatdotsol?t=Zwj6yzpfkoGmfSRDSnxeUg&s=09&fbclid=IwZXh0bgNhZW0CMTEAAR1alV5cBSSa-_5cBxE_ZmGAMAwF4M3vmguQQXyKpo47FTJrGtRXfQU1p3U_aem_WDITNB4LSNAOmhSOUQ3DmA" target="_blank"> <img src={xlogo} alt="" /></a>Follow us on X
           </li>
           <li>
             {" "}

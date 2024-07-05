@@ -12,7 +12,7 @@ const About = () => {
         <img src={play} className="play-icon" />
       </div>
       <div className="about-right">
-        <h3>ABOUT COLLEGE</h3>
+        <h3>ABOUT $CRAVE</h3>
         <h2>Nurturing Tomorrow's Leaders Today</h2>
         <p>
           {" "}
