@@ -1,7 +1,8 @@
 import React from "react";
 import "./About.css";
-import about from "../../assets/about.jpg";
+import about from "../../assets/dancecat.gif";
 import play from "../../assets/iconblack.png";
+
 
 const About = () => {
   return (

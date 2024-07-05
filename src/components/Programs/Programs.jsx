@@ -1,31 +1,34 @@
 import React from "react";
 import "./Programs.css";
-import program1 from '../../assets/Program1.jpg'
-import program2 from '../../assets/Program2.jpg'
-import program3 from '../../assets/Program3.jpg'
-import icon from '../../assets/gradicon.png'
+import pic1 from '../../assets/drugs.jpg'
+import pic2 from '../../assets/music.jpg'
+import pic3 from '../../assets/rave.jpg'
+import icon1 from '../../assets/pill.png'
+import icon2 from '../../assets/musics.png'
+import icon3 from '../../assets/grp.png'
+
 const Programs = () => {
   return (
     <div className="programs">
       <div className="program">
-        <img src={program1}  alt="program"/>
+        <img src={pic1}  alt="program"/>
         <div className="caption">
-            <img src={icon} />
-            <p>Hospitality Degree</p>
+            <img src={icon1} />
+            <p>Party Drugs</p>
         </div>
       </div>
       <div className="program">
-        <img src={program2}  alt="program"/>
+        <img src={pic2}  alt="program"/>
         <div className="caption">
-            <img src={icon} />
-            <p>Nursing Degree</p>
+            <img src={icon2} />
+            <p>Lit Music</p>
         </div>
       </div>
       <div className="program">
-        <img src={program3}  alt="program"/>
+        <img src={pic3}  alt="program"/>
         <div className="caption">
-            <img src={icon} />
-            <p>Business Degree</p>
+            <img src={icon3} />
+            <p>Super Community</p>
         </div>
       </div>
 

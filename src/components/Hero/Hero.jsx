@@ -1,17 +1,17 @@
 import React from "react";
 import "./Hero.css";
-import arrow from '../../assets/arrow.png'
+import arrow from "../../assets/arrow.png";
 const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text">
-        <h1>We provide better education for a better world</h1>
+        <h1>JOIN THE CAT IN THE RAVE</h1>
         <p>
-          Our international competive curriculum is designed to empower students
-          with the knowledge, skills, and experiences needed to excel in the
-          dynamic field of education
+        Let's turn up the volume on our MEME Coin journey and join us for the ultimate crypto rave.
         </p>
-        <button className="btn">Explore More <img src={arrow}/> </button>
+        <button className="btn">
+          SEE YOU SOONEST! <img src={arrow} />{" "}
+        </button>
       </div>
     </div>
   );
