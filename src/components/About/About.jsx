@@ -1,30 +1,26 @@
 import React from "react";
 import "./About.css";
-import about from "../../assets/dancecat.gif";
-import play from "../../assets/playicon.png";
+import about from "../../assets/mg.png";
 
 const About = () => {
   return (
     <div className="about">
       <div className="about-left">
-        <img src={about} className="about-img" />
-        <img src={play} className="play-icon" />
+        <img src={about} className="about-img" alt="Mercentra Group" />
       </div>
       <div className="about-right">
-        <h3>ABOUT CAT IN RAVE</h3>
-        <h2>"Mixing beats and crypto vibes—join the rave revolution!"</h2>
+        <h3>ABOUT MERCENTRA GROUP</h3>
+        <h2>"Driving Business Growth with Digital Marketing and Shopify Expertise"</h2>
         <p>
-          {" "}
-          Cat in Rave is more than just a project; it’s a vibrant community at
-          the intersection of drugs, music, and camaraderie.
+          Mercentra Group helps businesses grow online by providing effective digital marketing solutions tailored to each client’s needs.
         </p>
 
         <p>
-        We’re all about breaking barriers and turning up the fun, creating a space where you can explore and connect.
+          Specializing in Shopify eCommerce, we know what it takes to create a strong, conversion-focused online presence. From store setup and optimization to targeted marketing strategies, we’re here to help you succeed in a competitive market.
         </p>
 
         <p>
-        Join the rave culture with Cat in Rave, where the excitement ties up with the electric energy of music festivals. Whether you're a crypto whiz, a music junkie, or just here for the vibrant community, our dancing cat welcomes you to the party.
+          Whether you’re new to eCommerce or looking to scale, Mercentra Group offers the tools and support to boost traffic, engage customers, and increase sales. Let's work together to take your business to the next level.
         </p>
       </div>
     </div>

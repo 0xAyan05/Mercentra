@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text">
-        <h1>JOIN THE CAT IN THE RAVE</h1>
+        <h1>Mercentra Group</h1>
         <p>
-        Let's turn up the volume on our MEME Coin journey and join us for the ultimate crypto rave.
+          Boost your Shopify store's growth with our expert digital marketing strategies, designed to drive traffic, increase conversions, and maximize revenue.
         </p>
         <button className="btn">
-          SEE YOU SOONEST! <img src={arrow} />{" "}
+          LET'S GET STARTED <img src={arrow} />{" "}
         </button>
       </div>
     </div>

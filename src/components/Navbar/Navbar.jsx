@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/nobg.png";
 import { Link } from "react-scroll";
 import menu from '../../assets/menu.png'
 
@@ -29,11 +29,11 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="program" smooth={true} offset={-260} duration={500}>
-            Ethos
+            Services
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} offset={-130} duration={500}>
+          <Link to="about" smooth={true} offset={-265} duration={500}>
             About Us
           </Link>
         </li>
@@ -41,7 +41,7 @@ const Navbar = () => {
           <Link
             to="contact"
             smooth={true}
-            offset={-250}
+            offset={-270}
             duration={500}
             className="btn"
           >

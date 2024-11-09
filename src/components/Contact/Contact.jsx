@@ -1,11 +1,9 @@
 import React from "react";
 import "./Contact.css";
-import smolcat from '../../assets/smolcat.png'
-import sol from '../../assets/solana.jpg'
-import tg from '../../assets/tg.png'
-import pump from '../../assets/pump.jpg'
-import xlogo from '../../assets/xlogo.png'
-import whitearrow from '../../assets/whitearrow.png'
+import cart from "../../assets/cart.png";
+import fb from "../../assets/fb.png";
+import ig from "../../assets/ig.png";
+import whitearrow from "../../assets/whitearrow.png";
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
@@ -37,32 +35,37 @@ const Contact = () => {
     <div className="contact">
       <div className="contact-col">
         <h3>
-          Send us a message <img src={smolcat} alt="" />
+          Send us a message <img src={cart} alt="" />
         </h3>
         <p>
-          Feel free to reach out through contact form or find our contact
-          information below. Your feedback, questions, and suggestions are
-          important to us as we strive to provide exceptional service to our
-          university community.
+          Have questions, feedback, or need more information? Reach out to us
+          through the contact form or find our contact details below. We're here
+          to help with any inquiries and look forward to supporting your
+          business growth with effective digital marketing and eCommerce
+          solutions. Your success is our priority, and we’re excited to be part
+          of your journey.
         </p>
         <ul>
           <li>
             {" "}
-           
-            <a href="https://t.me/+DVymnp7rTdxhYzBl?fbclid=IwZXh0bgNhZW0CMTEAAR2WTcFUDTM5tCZ7sKn0ESGkfvS6TGfIJL3_AJCX45hkLrOZvpUekvhUbIM_aem_MF9UKQ1oSwxMz9oZYoG2yw" target="_blank"> <img src={tg} alt="" /> </a>Cat in Rave Community
+            <a
+              href="https://www.instagram.com/mercentra.group/"
+              target="_blank"
+            >
+              {" "}
+              <img src={ig} alt="" />{" "}
+            </a>
+            Instagram
           </li>
           <li>
-          <a href="https://x.com/ravecatdotsol?t=Zwj6yzpfkoGmfSRDSnxeUg&s=09&fbclid=IwZXh0bgNhZW0CMTEAAR1alV5cBSSa-_5cBxE_ZmGAMAwF4M3vmguQQXyKpo47FTJrGtRXfQU1p3U_aem_WDITNB4LSNAOmhSOUQ3DmA" target="_blank"> <img src={xlogo} alt="" /></a>Follow us on X
-          </li>
-          <li>
-            {" "}
-            <img src={sol} />
-            Powered By SOLANA
-          </li>
-          <li>
-            {" "}
-            <img src={pump} />
-            Partnered With PUMP.FUN
+            <a
+              href="https://www.facebook.com/profile.php?id=61567940548953"
+              target="_blank"
+            >
+              {" "}
+              <img src={fb} alt="" />
+            </a>
+            Follow us on Facebook
           </li>
         </ul>
       </div>

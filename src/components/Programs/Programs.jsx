@@ -1,11 +1,11 @@
 import React from "react";
 import "./Programs.css";
-import pic1 from '../../assets/pilll.png'
-import pic2 from '../../assets/music.png'
-import pic3 from '../../assets/rave.png'
-import icon1 from '../../assets/pill.png'
-import icon2 from '../../assets/musics.png'
-import icon3 from '../../assets/grp.png'
+import pic1 from '../../assets/shopify.jpg'
+import pic2 from '../../assets/ads.jpg'
+import pic3 from '../../assets/seo.jpg'
+import icon1 from '../../assets/seos.png'
+import icon2 from '../../assets/marketing.png'
+import icon3 from '../../assets/megaphone.png'
 
 const Programs = () => {
   return (
@@ -14,21 +14,21 @@ const Programs = () => {
         <img src={pic1}  alt="program"/>
         <div className="caption">
             <img src={icon1} />
-            <p>Party Drugs</p>
+            <p>Shopify SEO & Content Marketing</p>
         </div>
       </div>
       <div className="program">
         <img src={pic2}  alt="program"/>
         <div className="caption">
             <img src={icon2} />
-            <p>Lit Music</p>
+            <p>Paid Ads & Social Media Campaigns</p>
         </div>
       </div>
       <div className="program">
         <img src={pic3}  alt="program"/>
         <div className="caption">
             <img src={icon3} />
-            <p>Super Community</p>
+            <p> Conversion Rate Optimization & Retention</p>
         </div>
       </div>
 

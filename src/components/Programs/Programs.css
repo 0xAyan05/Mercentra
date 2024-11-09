@@ -18,7 +18,6 @@
 }
 
 .caption{
-    border-radius: 10px;
     position: absolute;
     top: 0;
     left: 0;
@@ -39,6 +38,7 @@
 .caption img{
     width: 60px;
     margin-bottom: 10px;
+    border-radius: 20%;
 }
 
 .program:hover .caption{
